@@ -1,0 +1,49 @@
+body{
+	background-image: linear-gradient(90deg, lightblue, #A3E662);
+	font-weight: bolder;
+}
+h1{
+	text-align:center; 
+}
+
+.to_do_list{
+	text-align:left;
+	width: 25em;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.add-task{
+	font-size: 22px;
+	width:100%;
+}
+.tasks{
+	font-size: 34px;
+	list-style: none;
+}
+
+.complete span{
+	text-decoration: line-through;
+	opacity: 50%;
+}
+ul a, a:visited, a:active{
+	text-decoration: none;
+	color:darkred;
+	background: #E89595;
+	font-size: 28px;
+	border-radius: 30px;
+	display: inline-block;
+	bottom: 2px;
+	position: relative; 
+	left: 40px;
+}
+
+ul span{
+	position: relative;
+	left: 20px;
+}
+li:hover{
+	opacity: 75%;
+	color: #272727;
+	background: #F8F8F8;
+}
